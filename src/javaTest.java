@@ -5,8 +5,7 @@ public class javaTest {
     public static void main(String[] args) {
         Date now = new Date();
         System.out.println("now is" + now);
-        String a = "KA";
-        String a1 = "KA1";
+
     }
 
 }
