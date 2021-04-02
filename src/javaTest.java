@@ -6,6 +6,7 @@ public class javaTest {
         Date now = new Date();
         System.out.println("now is" + now);
         String a = "KA";
+        String a1 = "KA1";
     }
 
 }
