@@ -118,13 +118,15 @@ public class DocSoThanhChu {
         int donVi = num%100;
 
         int hangChuc = chuc/10;
-        int hangDonVi = chuc%10;
+        int hangDonVi = num%100;
+
+
         if(tram >0) {
 
             str += docDonVi(tram) + " hundredth ";
         }
             if(chuc > 10 && chuc < 20) {
-                str +=  doc11(chuc) +" ";
+                str +=  doc11(chuc) +"  ";
             }
             else {
                 str += docchuc(hangChuc) + " " + docDonVi(hangDonVi);
